@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\LogTransfomer\\LogTransfomer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\LogTransfomer\\LogTransfomer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\LogTransfomer\\LogTransfomer.csproj",
+        "projectName": "LogTransfomer",
+        "projectPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\LogTransfomer\\LogTransfomer.csproj",
+        "packagesPath": "C:\\Users\\stylish1379_2bytesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\LogTransfomer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stylish1379_2bytesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.15, )"
+            },
+            "MemoryPack": {
+              "target": "Package",
+              "version": "[1.9.16, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
