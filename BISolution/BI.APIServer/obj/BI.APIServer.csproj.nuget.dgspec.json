@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.APIServer\\BI.APIServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.APIServer\\BI.APIServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.APIServer\\BI.APIServer.csproj",
+        "projectName": "BI.APIServer",
+        "projectPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.APIServer\\BI.APIServer.csproj",
+        "packagesPath": "C:\\Users\\stylish1379_2bytesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.APIServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stylish1379_2bytesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.Core\\BI.Core.csproj": {
+                "projectPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.Core\\BI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MemoryPack": {
+              "target": "Package",
+              "version": "[1.9.16, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "PowerArgs": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.Core\\BI.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.Core\\BI.Core.csproj",
+        "projectName": "BI.Core",
+        "projectPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.Core\\BI.Core.csproj",
+        "packagesPath": "C:\\Users\\stylish1379_2bytesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stylish1379_2bytesco\\Desktop\\Github Folder\\CalcRetention\\BISolution\\BI.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stylish1379_2bytesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Brotli.NET": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Dapper.ColumnMapper": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MemoryPack": {
+              "target": "Package",
+              "version": "[1.9.16, )"
+            },
+            "MemoryPack.Core": {
+              "target": "Package",
+              "version": "[1.9.16, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
